@@ -15,20 +15,6 @@
       </ignoreVersions>
     </rule>
 
-    <rule groupId="org.codehaus.mojo"
-          artifactId="sonar-maven-plugin" comparisonMethod="maven">
-      <ignoreVersions>
-        <ignoreVersion type="regex">3.*</ignoreVersion>
-      </ignoreVersions>
-    </rule>
-
-    <!-- <rule groupId="org.seleniumhq.selenium" -->
-    <!--       artifactId="selenium-java" comparisonMethod="maven"> -->
-    <!--   <ignoreVersions> -->
-    <!--     <ignoreVersion type="regex">3\.1[^2].*</ignoreVersion> -->
-    <!--   </ignoreVersions> -->
-    <!-- </rule> -->
-
   </rules>
 
   <ignoreVersions>
